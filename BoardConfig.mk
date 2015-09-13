@@ -26,6 +26,9 @@
 # inherit from the proprietary version
 -include vendor/samsung/d2att/BoardConfigVendor.mk
 
+# LZMA
+WITH_LZMA_OTA := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2att,d2lte,d2can,d2tmo
 
